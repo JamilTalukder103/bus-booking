@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+
+<body class="container px-10 mx-auto lg:px-10">
+    <header>
+        <!-- navbar start here -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Desgination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-3xl font-bold font-raleway">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-lg">Home</a></li>
+                    <li><a class="text-lg">About</a></li>
+                    <li><a class="text-lg">Desgination</a></li>
+                    <li><a class="text-lg">Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <div
+                    class="flex space-x-3 border items-center justify-center border-custom-green bg-custom-bg px-4 py-2 rounded-lg font-semibold">
+                    <h2 class="text-custom-green text-xl">Bus</h2>
+                    <img src="img/bus-icon.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- banner section start hete -->
+        <div>
+            <div
+                class="rounded-2xl relative w-full mt-5 h-[50vh] lg:h-[80vh] object-fit bg-no-repeat bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('/img/banner.png')] flex justify-center items-center flex-col text-center space-y-2 lg:after:space-y-5">
+                <h1 class="text-2xl lg:text-6xl font-bold text-white">End-To-End Travel With </h1>
+                <h1 class="text-custom-green text text-2xl lg:text-6xl font-bold">P Paribahan</h1>
+                <p class="w-5/6 lg:w-3/5 text-white">Yes,You can run unit test and view the results directly within the
+                    app. The
+                    integrated testing feauthers allowed for the stermlined. </p>
+                <button class="font-bold lg:text-xl px-5   btn bg-custom-green text-black border-none">Buy
+                    Ticket</button>
+            </div>
+            <div class="lg:flex  justify-center gap-20 transform lg:-translate-y-1/2 left-5 right-5 top-1/2">
+                <div class="flex items-center bg-white p-4  gap-x-2 rounded-2xl border-b-4 border-custom-green  ">
+                    <img src="img/people.png" alt="">
+                    <div>
+                        <h2 class="text-4xl font-bold">500K+</h2>
+                        <p>Registered users</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white p-4  gap-x-2 rounded-2xl border-b-4 border-custom-green  ">
+                    <img src="img/ticket-cupon.png" alt="">
+                    <div>
+                        <h2 class="text-4xl font-bold">1.7 lacks</h2>
+                        <p>Ticket sold</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white p-4  gap-x-2 rounded-2xl border-b-4 border-custom-green">
+                    <img src="img/stoppage.png" alt="">
+                    <div>
+                        <h2 class="text-4xl font-bold">80K+</h2>
+                        <p>Rental Partners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- best offer start here -->
+        <div class="mt-20">
+            <h2 class="text-center text-2xl lg:text-4xl font-bold">Best offers for you</h2>
+            <div class="lg:flex justify-center items-center  lg:gap-5 mt-12">
+                <div class="bg-[#FFBF0F] relative h-[220px]  rounded-2xl  flex w-full items-center justify-around">
+                    <div class="space-y-2">
+                        <h2 class="text-2xl lg:text-4xl font-bold">15% OFF</h2>
+                        <h4 class="font-semibold">on your next purchase</h4>
+                        <p>use by January 2024</p>
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="text-2xl lg:text-4xl font-semibold">NEW15</h2>
+                        <p>Coupon Code</p>
+                    </div>
+                    <img class="absolute h-full ml-20 " src="img/cupon-devider.png" alt="">
+                </div>
+                <div
+                    class="bg-[#F78C9C] relative mt-5 lg:mt-0 h-[220px] rounded-2xl flex w-full items-center justify-around">
+                    <div class="space-y-2">
+                        <h2 class="text-2xl lg:text-4xl font-bold">20% OFF</h2>
+                        <h4 class="font-bold">on your next purchase</h4>
+                        <p>use by January 2024</p>
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="font-bold text-2xl lg:text-4xl">Couple 20</h2>
+                        <p>Coupon Code</p>
+                    </div>
+                    <img class="absolute h-full ml-20" src="img/cupon-devider.png" alt="">
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <button class="border-custom-green btn border-2 text-xl font-bold text-custom-green mt-12 bg-white">See
+                    All
+                    Offers</button>
+            </div>
+        </div>
+
+        <!-- p.h poribahn start here -->
+        <div class="bg-[#F7F8F8] mt-40 border-t-2 rounded-[40px] p-20 border-custom-green">
+            <div class="text-center mx-auto lg:w-2/4">
+                <h2 class="text-2xl lg:text-4xl font-bold">P.H Paribahan</h2>
+                <p>Yes, you can run unit tests and view the results directly within the app. The integrated
+                    testing features allow for a streamlinedW</p>
+            </div>
+            <div class="grid grid-cols-12 relative p-10 bg-white rounded-xl mt-10 gap-20">
+                <div class="col-span-8">
+                    <div class=" flex justify-between items-center  ">
+                        <div class="flex items-center gap-x-4">
+                            <img class="w-16 h-12" src="img/bus-logo.png" alt="">
+                            <div>
+                                <h1 class="text-3xl font-semibold">Greenline Paribahan</h1>
+                                <p>Coach-009-web ! Ac_Bussiness</p>
+                            </div>
+                        </div>
+                        <div class=" inline-block ">
+                            <div
+                                class="flex gap-x-2 justify-center p-2 border font-bold text-custom-green border-custom-green rounded-lg items-center bg-custom-bg">
+                                <img src="img/seat-green-filled.png" alt="">
+                                <h2>40 seats left</h2>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="bg-[#F7F8F8] rounded-xl p-8 space-y-4 mt-8">
+                        <div class=" flex justify-between ">
+                            <h3 class="font-semibold text-xl">Router</h3>
+                            <h3 class="font-semibold text-xl">Dhaka-Sylet</h3>
+
+                        </div>
+                        <hr>
+                        <div class="bg-[#F7F8F8] flex justify-between ">
+                            <h3 class="font-semibold text-xl">Depature Time</h3>
+                            <h3 class="font-semibold text-xl"> 9.00 pm</h3>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between items-center pt-5 gap-5 text-center">
+                            <div class="bg-gray-200 rounded-lg w-[220px] p-2">
+                                <h2 class="text-lg font-semibold">Bordering Point</h2>
+                            </div>
+                            <div class="bg-gray-200 rounded-lg p-2 w-[220px]">
+                                <h2 class="text-lg font-semibold">Dropping Point</h2>
+                            </div>
+                            <div class="bg-gray-200 rounded-lg p-2 w-[220px]">
+                                <h2 class="text-lg font-semibold">Est. Time-11 Hour</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" justify-center  col-span-4 space-y-2 py-2 flex flex-col items-center">
+                    <img src="img/fare.png" alt="">
+                    <h2 class="text-4xl font-bold">550 Taka</h2>
+                    <p class="font-semibold">Per Seat</p>
+                </div>
+                <img class="absolute h-full  right-[270px]" src="img/info-devider.png" alt="">
+            </div>
+        </div>
+        <!-- seat booking start here -->
+        <div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
